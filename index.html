@@ -22,7 +22,7 @@
             width: 100%;
         }
     </style>
-    <title>2024龙年大吉</title>
+    <title>吗喽们龙年大吉</title>
 </head>
 
 <body onselectstart="return false">
@@ -79,7 +79,7 @@
 
             var newTime = new Date();
             if (newTime - lastTime > 200 + (window.innerHeight - 767) / 2) {
-                var random = Math.random() * 100 > 10 ? true : false;
+                var random = Math.random() * 100 > 15 ? true : false;
                 var x = getRandom(canvas.width / 5, canvas.width * 4 / 5);
                 var y = getRandom(50, 200);
                 if (random) {
@@ -284,7 +284,7 @@
             else {
                 var text = ele.innerHTML;
                 context.save();
-                var fontSize = 140;
+                var fontSize = 130;
                 context.font = fontSize + "px 宋体 bold";
                 context.textAlign = "center";
                 context.textBaseline = "middle";
